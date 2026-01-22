@@ -98,10 +98,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4713719514245437058}
-  - component: {fileID: 8650432391311281434}
-  - component: {fileID: 5058982804335161441}
-  - component: {fileID: 952255960189261793}
-  - component: {fileID: 5512398023897820893}
+  - component: {fileID: 7405128450673843958}
+  - component: {fileID: 1734570207199229075}
+  - component: {fileID: 637271015900716525}
+  - component: {fileID: 6557312180949124656}
   m_Layer: 0
   m_Name: RifleBullet
   m_TagString: Untagged
@@ -119,14 +119,14 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5870464556724626218}
   - {fileID: 7031907993768011620}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8650432391311281434
+--- !u!114 &7405128450673843958
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Bullet
   speed: 15
   lifetime: 3
---- !u!65 &5058982804335161441
+--- !u!65 &1734570207199229075
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,7 +161,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.07, y: 0.05, z: 0.05}
   m_Center: {x: 0.02, y: 0, z: 0}
---- !u!54 &952255960189261793
+--- !u!54 &637271015900716525
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,7 +188,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!96 &5512398023897820893
+--- !u!96 &6557312180949124656
 TrailRenderer:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -251,15 +251,6 @@ TrailRenderer:
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.0054855347
-        value: 0.99365044
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       m_PreInfinity: 2
@@ -267,8 +258,8 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.96638614, g: 0.96981126, b: 0.064044006, a: 1}
-      key1: {r: 0.9490436, g: 0.97735846, b: 0.035037242, a: 0}
+      key0: {r: 0.97735846, g: 0.92540693, b: 0.035037242, a: 1}
+      key1: {r: 0.9924528, g: 0.9423847, b: 0.050558835, a: 0}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -276,7 +267,7 @@ TrailRenderer:
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 65304
+      ctime1: 65535
       ctime2: 0
       ctime3: 0
       ctime4: 0
