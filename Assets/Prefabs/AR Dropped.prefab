@@ -98,10 +98,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6559362985659250037}
-  - component: {fileID: 4533586226111596188}
-  - component: {fileID: 1950209963626552024}
-  - component: {fileID: 3514625384368742778}
-  - component: {fileID: 521004967805262598}
+  - component: {fileID: 8224204034034896627}
+  - component: {fileID: 1861965748740141256}
+  - component: {fileID: -3724286663472821660}
+  - component: {fileID: -5744720907800822202}
   m_Layer: 0
   m_Name: AR Dropped
   m_TagString: Untagged
@@ -131,7 +131,7 @@ Transform:
   - {fileID: 7576839964966942220}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &4533586226111596188
+--- !u!65 &8224204034034896627
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -152,7 +152,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 0.4, z: 0.3}
   m_Center: {x: -0.2, y: 0, z: 0}
---- !u!54 &1950209963626552024
+--- !u!54 &1861965748740141256
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -179,7 +179,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3514625384368742778
+--- !u!114 &-3724286663472821660
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -194,7 +194,7 @@ MonoBehaviour:
   highlightMaterial: {fileID: 2100000, guid: 32c5f45a97c38f6438b2c755315cb68b, type: 2}
   weaponPrefab: {fileID: 5786097810451525583, guid: 260ff1508afea5241b6511d8fbe92201, type: 3}
   lookRange: 3
---- !u!114 &521004967805262598
+--- !u!114 &-5744720907800822202
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
